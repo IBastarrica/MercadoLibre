@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {StyleSheet, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import SearchElement from './src/screens/SearchElement';
-import ListElements from './src/screens/ListElements';
+import ShopNavigator from './navigation/ShopNavigator';
 
 
 export default function App() {
@@ -15,9 +15,7 @@ export default function App() {
 
 return(
 <View style={styles.container}>
-  <SearchElement />
-
-
+  <ShopNavigator/>
 </View>
 
 );

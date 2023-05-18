@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Inicio from '../src/screens/Inicio';
 import DetalleDeProductos from '../src/screens/DetalleDeProductos';
 import ListElements from '../src/screens/ListElements';
 import SearchElement from '../src/screens/SearchElement';
