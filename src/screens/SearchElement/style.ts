@@ -31,6 +31,7 @@ const style = StyleSheet.create({
         paddingHorizontal: 30,
         paddingTop: 80,
         flex:1,
+        backgroundColor: 'yellow',
     },
     containerButton: {
         position: 'absolute',
