@@ -30,6 +30,14 @@ const style = StyleSheet.create({
         height: 200,
         paddingHorizontal: 30,
         paddingTop: 80,
+        flex:1,
+    },
+    containerButton: {
+        position: 'absolute',
+        padding:90,
+        top: 300,
+        borderRadius: 20,
+        backgroundColor: 'black',
     },
 })
 

@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import {Text, StyleSheet, TextInput, View, FlatList, Image, TouchableOpacity } from 'react-native';
+import {StyleSheet, View } from 'react-native';
 import { useFonts } from 'expo-font';
-import colors from "./src/constants/color"
 import SearchElement from './src/screens/SearchElement';
-import ListElements from './src/screens/ListElement';
+import ListElements from './src/screens/ListElements';
 
 
 export default function App() {
@@ -17,7 +16,8 @@ export default function App() {
 return(
 <View style={styles.container}>
   <SearchElement />
-  <ListElements />
+
+
 </View>
 
 );
@@ -26,7 +26,7 @@ return(
 
 const styles = StyleSheet.create ({
   container: {
-    flex: 1,
+    flex: 2,
     backgroundColor: '#FBE204',
   },
 });
