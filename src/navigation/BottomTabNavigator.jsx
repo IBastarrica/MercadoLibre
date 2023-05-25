@@ -23,7 +23,7 @@ export default BottomTabNavigator = () => {
         options={{
           tabBarIcon: () => (
             <View>
-              <Ionicons name="home" size={30} color="black" />
+              <Ionicons name="home" size={30} color="red" />
               <Text>Shop</Text>
             </View>
           ),
@@ -35,7 +35,7 @@ export default BottomTabNavigator = () => {
         options={{
           tabBarIcon: () => (
             <View>
-              <Ionicons name="cart" size={30} color="black" />
+              <Ionicons name="cart" size={30} color="red" />
               <Text>Cart</Text>
             </View>
           ),
@@ -47,7 +47,7 @@ export default BottomTabNavigator = () => {
         options={{
           tabBarIcon: () => (
             <View>
-              <Ionicons name="list" size={30} color="black" />
+              <Ionicons name="list" size={30} color="red" />
               <Text>Ordenes</Text>
             </View>
           ),
